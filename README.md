@@ -1,4 +1,4 @@
-# Grav Optiums Plugin
+# Grav Optimus Plugin
  
 `Optimus` is a powerful [Grav][grav] Plugin that automatically processes your Page Media Images through the [Optimus](https://optimus.io/en/) lossless compression service.
 
