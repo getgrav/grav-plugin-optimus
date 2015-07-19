@@ -1,0 +1,27 @@
+name: Optiums
+version: 1.0.0
+description: Image compression library utilizing https://optimus.io/en
+icon: compress
+author:
+  name: Team Grav
+  email: devs@getgrav.org
+  url: http://getgrav.org
+homepage: https://github.com/getgrav/grav-plugin-optimus
+demo: http://demo.getgrav.org/blog-skeleton
+keywords: optimus, plugin, navigation, depth
+bugs: https://github.com/getgrav/grav-plugin-optimus/issues
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
