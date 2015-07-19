@@ -37,11 +37,10 @@ class OptimusPlugin extends Plugin
 
     public function onImageMediumSaved(Event $event)
     {
-        $image = $event['image'];
-        $path = $image->result;
+        $path = $event['image'];
         $result = $this->optimus->optimize($path);
 
-        if (!empty($image)) {
+        if (!empty($result)) {
             file_put_contents($path, $result);
         }
     }
