@@ -29,7 +29,7 @@ enabled: true
 license_key: YOUR_OPTIMUS_KEY
 ```
 
-You will need to replace `YOUR_OPTIMUS_KEY` with the key you were assigned when you signed up for the Optimus service. The best process to do this is to copy the [optimus.yaml](optimus.yaml) file into your `users/config/plugins/` folder (create it if it doesn't exist), and then modify there.  This will override the default settings.
+You will need to replace `YOUR_OPTIMUS_KEY` with the key you were assigned when you signed up for the Optimus service. The best process to do this is to copy the [optimus.yaml](optimus.yaml) file into your `user/config/plugins/` folder (create it if it doesn't exist), and then modify there.  This will override the default settings.
 
 # Usage
 
