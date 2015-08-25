@@ -1,5 +1,5 @@
 name: Optiums
-version: 1.0.0
+version: 1.1.0
 description: Image compression library utilizing https://optimus.io/en
 icon: compress
 author:
@@ -25,3 +25,8 @@ form:
         0: Disabled
       validate:
         type: bool
+
+    license_key:
+      type: text
+      label: Licence Key
+      placeholder: "YOUR_OPTIMUS_KEY"
