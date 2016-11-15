@@ -1,5 +1,5 @@
 # v1.2.0
-## 11/xx/2016
+## 11/15/2016
 
 1. [](#bugfix)
     * Fixed throwing exception
