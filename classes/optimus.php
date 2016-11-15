@@ -106,7 +106,7 @@ class Optimus {
 
         // error catching
         if (!empty($curlError) || empty($body)) {
-            throw new Exception("Optimus-Error: {$curlError}, Output: {$body}");
+            throw new \Exception("Optimus-Error: {$curlError}, Output: {$body}");
         }
 
         return $body;
