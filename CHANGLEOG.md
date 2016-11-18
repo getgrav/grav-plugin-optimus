@@ -1,5 +1,5 @@
 # v1.3.0
-## 11/xx/2016
+## 11/18/2016
 
 1. [](#bugfix)
     * Fixed plugin name
