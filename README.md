@@ -12,7 +12,7 @@ The simplest way to install this plugin is via the [Grav Package Manager (GPM)](
 
     bin/gpm install optimus
 
-This will install the YouTube plugin into your `/user/plugins` directory within Grav. Its files can be found under `/your/site/grav/user/plugins/optimus`.
+This will install the Optimus plugin into your `/user/plugins` directory within Grav. Its files can be found under `/your/site/grav/user/plugins/optimus`.
 
 ## Manual Installation
 
